@@ -13,3 +13,21 @@ npm install @emailjs/browser
 npm i react-router-dom
 
 npm start
+
+# hosting
+
+npm install gh-pages
+
+# add following to package.json
+
+"homepage": "https://gitname.github.io/repo-name",
+
+"scripts": {
+
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build",
+"start": "react-scripts start",
+"build": "react-scripts build",
+}
+
+git remote add origin https://github.com/{username}/{repo-name}.git
