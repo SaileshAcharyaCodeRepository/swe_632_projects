@@ -30,4 +30,4 @@ npm install gh-pages
 "build": "react-scripts build",
 }
 
-git remote add origin https://github.com/{username}/{repo-name}.git
+npm run deploy
